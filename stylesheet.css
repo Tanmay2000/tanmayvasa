@@ -1,0 +1,15 @@
+#background1 {
+   height:100%;
+   width:100%;
+   background-color: #ccffcc; /*your background image*/  
+   background-size:cover;/*this sets the image to fullscreen covering the whole screen*/  
+   /*css hack for ie*/     
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+#header {
+   padding: 48% 0;
+}
+#introduction {
+   padding: 75% 0;
+}
